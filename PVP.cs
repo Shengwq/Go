@@ -11,10 +11,11 @@ using System.Windows.Forms;
 
 namespace GO
 {
-    public partial class Form2 : Form
+    public partial class PVP : Form
     {
         private const int single_width = 50;
         private const int size = 13;
+        private const int width = single_width*size;
         private int[,] chessBoard = new int[size + 1, size + 1];
         private int r = 20;
         Point original_point = new Point(0, 0);
@@ -31,7 +32,7 @@ namespace GO
 
         //Point 为什么不能为常量？
 
-        public Form2()
+        public PVP()
         {
             InitializeComponent();
         }
@@ -255,7 +256,6 @@ namespace GO
             }
             judge = 0;
             return true;
-
         }
 
         private void Form2_Load(object sender, EventArgs e)

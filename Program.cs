@@ -11,8 +11,7 @@ namespace GO
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new GO());
-           // Application.Run(new GO()); 可以打开多个窗体
+            Application.Run(new StartPage());
 
         }
     }

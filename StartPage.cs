@@ -2,9 +2,9 @@ using System.Windows.Forms;
 
 namespace GO
 {
-    public partial class GO : Form
+    public partial class StartPage : Form
     {
-        public GO()
+        public StartPage()
         {
             InitializeComponent();
             this.AcceptButton = button1;
@@ -17,7 +17,7 @@ namespace GO
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form2 form2 = new Form2();
+            PVP form2 = new PVP();
             form2.Show();
 
             //Close好像不行，form2也会很快关掉 为什么？
@@ -34,7 +34,7 @@ namespace GO
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form3 form3 = new Form3();
+            PVESelect form3 = new PVESelect();
             form3.Show();
         }
     }

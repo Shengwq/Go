@@ -1,6 +1,6 @@
 ﻿namespace GO
 {
-    partial class Form2
+    partial class PVP
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PVP));
             button1 = new Button();
             button2 = new Button();
             pictureBox1 = new PictureBox();
@@ -67,7 +67,7 @@
             pictureBox1.BackColor = Color.Khaki;
             pictureBox1.Location = new Point(20, 20);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(single_width*size,single_width*size);
+            pictureBox1.Size = new Size(width,width);
             pictureBox1.TabIndex = 2;
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
@@ -99,7 +99,7 @@
             richTextBox1.ScrollBars = RichTextBoxScrollBars.Vertical;
             richTextBox1.Size = new Size(221, 226);
             richTextBox1.TabIndex = 5;
-            richTextBox1.Text = $"第 {round} 回合\n";
+            //richTextBox1.Text = $"第 {round} 回合\n";
             // 
             // Form2
             // 

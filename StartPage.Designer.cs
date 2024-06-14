@@ -1,6 +1,6 @@
 ﻿namespace GO
 {
-    partial class GO
+    partial class StartPage
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GO));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StartPage));
             label1 = new Label();
             button1 = new Button();
             button2 = new Button();
@@ -86,11 +86,11 @@
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
             // 
-            // GO
+            // StartPage
             // 
             AutoScaleDimensions = new SizeF(14F, 31F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = global::GO.Properties.Resources.五子棋背景;
+            BackgroundImage = Properties.Resources.五子棋背景;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1085, 682);
             Controls.Add(button3);
@@ -100,7 +100,7 @@
             ForeColor = Color.Cyan;
             HelpButton = true;
             Icon = (Icon)resources.GetObject("$this.Icon");
-            Name = "GO";
+            Name = "StartPage";
             Text = "GO";
             Load += GO_Load;
             ResumeLayout(false);
