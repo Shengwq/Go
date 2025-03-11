@@ -13,8 +13,7 @@
 
 仅具有双人对战功能
 
-![image-2](Picture\PVP.png)
-
+![image-2](https://github.com/Shengwq/Go/blob/main/Picture/PVP.png)
 反应很灵敏，多次测试没发现BUG
 
 #### GO 1.1
@@ -25,11 +24,11 @@
 
 ###### 难度选择页面
 
-![image-3](Picture\难度选择.png)
+![image-3](https://github.com/Shengwq/Go/blob/main/Picture/难度选择.png)
 
 ###### 初级人机对战
 
-![image-4](Picture\初级难度.png)
+![image-4](https://github.com/Shengwq/Go/blob/main/Picture/初级难度.png)
 
 电脑代码逻辑：
 
