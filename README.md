@@ -9,7 +9,7 @@
 
 开始界面
 
-![image-1](Picture\开始页面.png)
+![image-1]([Go/Picture/开始页面.png at main · Shengwq/Go](https://github.com/Shengwq/Go/blob/main/Picture/开始页面.png))
 
 仅具有双人对战功能
 
